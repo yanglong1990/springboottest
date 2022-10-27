@@ -79,6 +79,7 @@
         </if>
       </foreach>
     </where>
+
   </sql>
   <sql id="Base_Column_List">
     userId, deptId, userName, nickName, userType, email, phonenumber, sex, avatar, `password`, 
