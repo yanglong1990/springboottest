@@ -1,12 +1,11 @@
-package com.woniu.service;
+package com.woniu.dao;
 
 import com.woniu.pojo.SysUser;
 import com.woniu.pojo.SysUserExample;
+import java.util.List;
 import org.apache.ibatis.annotations.Param;
 
-import java.util.List;
-
-public interface SysUserService {
+public interface SysUserDao {
     long countByExample(SysUserExample example);
 
     int deleteByExample(SysUserExample example);
